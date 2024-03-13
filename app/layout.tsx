@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-
+import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -16,7 +16,31 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+
+<body>
+
+    <header style={{color:"whitesmoke", backgroundColor:"CaptionText"}}>
+    <div>
+    <ul>
+    <div> <Link href='/'>@Tech-Know</Link></div>
+    <div> <Link href='/about'>About</Link></div>
+    <div> <Link href='/contact'>Contact</Link></div>
+
+  </ul>
+</div>
+
+    </header>
+
+
+         <main className={inter.className}>{children}</main>
+
+      <footer style={{backgroundColor:"Highlight", textAlign:"center"}}>
+            <div>
+              <p>@Tech: {new Date().getFullYear()}</p>
+            </div>
+
+        </footer>
+    </body>
     </html>
   );
 }
