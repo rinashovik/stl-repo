@@ -19,7 +19,7 @@ body {
   background-color: rgb(238, 14, 238);
 }
 
-@layer utilities {gi
+@layer utilities {
   .text-balance {
     text-wrap: balance;
   }
