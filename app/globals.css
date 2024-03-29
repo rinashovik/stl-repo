@@ -1,12 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind variants;
 
+/* 
 :root {
   --foreground-rgb: 0, 0, 0;
   
-}
-
+} */
+/* 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -16,8 +18,12 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background-color: rgb(238, 14, 238);
-}
+  background-color: rgb(176, 45, 75);
+} */
+/* body {
+  color: rgb(var(--foreground-rgb));
+  background-color: rgb(176, 45, 75);
+}  */
 
 @layer utilities {
   .text-balance {

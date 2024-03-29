@@ -2,6 +2,10 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
+import Sidebar from "./components/Sidebar";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import Dashboard from "./dashboard/page";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -16,30 +20,27 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      {/* <script src="https://kit.fontawesome.com/64ba2e3d37.js" crossOrigin="anonymous" ></script> */}
+      <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+{/* <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet"></link> */}
 
-<body>
 
-    <header style={{color:"whitesmoke", backgroundColor:"CaptionText"}}>
-    <div>
-    <ul>
-    <div> <Link href='/'>@Tech-Know</Link></div>
-    <div> <Link href='/about'>About</Link></div>
-    <div> <Link href='/contact'>Contact</Link></div>
 
-  </ul>
-</div>
 
+
+<body className="h-screen w-full justify-center bg-zinc-400">
+
+    <header >
+          <Navbar />
     </header>
 
+             <Dashboard />
+        <Sidebar />
 
          <main className={inter.className}>{children}</main>
 
-      <footer style={{backgroundColor:"Highlight", textAlign:"center"}}>
-            <div>
-              <p>@Tech: {new Date().getFullYear()}</p>
-            </div>
 
-        </footer>
+        <Footer />
     </body>
     </html>
   );

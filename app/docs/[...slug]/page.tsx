@@ -2,8 +2,7 @@ import React from 'react'
 
 export default function Documnets() {
   return ( 
-    <div>
-        
+    <div>       
        <h2>Documnets Page</h2> 
         </div>
   )
