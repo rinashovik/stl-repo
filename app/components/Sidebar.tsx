@@ -32,6 +32,7 @@ export default function Sidebar({slides}) {
 <div className='grid gap-5'>
 
 <span className='material-symbols-outlined'><Link href='/calculate'>Calculate</Link></span>
+
 <span className="material-symbols-outlined" ><Link href="favorite">Favorite</Link></span>
 
 {/* <div>    */}

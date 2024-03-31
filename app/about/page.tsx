@@ -13,12 +13,19 @@ export default function About() {
 <div className="bg-white dark:bg-black-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
   <div>
     <span className="inline-flex items-center justify-center p-2 bg-indigo-500 rounded-md shadow-lg">
-      {/* <img className="h-6 w-6 text-white" src="C:\Users\risho\OneDrive\Desktop\next-project\stl-repo\public\next.img" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><!-- ... --></svg> */}
     </span>
   </div>
-  <h3 className="text-slate-900 dark:text-white mt-5 text-base font-medium tracking-tight">Writes Upside-Down</h3>
+  <h3 className="text-slate-900 dark:text-white mt-5 text-base font-medium tracking-tight"> What is Testing
+Testing is the process of determining how effective something is.</h3>
   <p className="text-slate-500 dark:text-slate-400 mt-2 text-sm">
-    The Zero Gravity Pen can be used to write in any orientation, including upside-down. It even works in outer space.
+
+  Software Systems Overview and Examples
+Software systems are an integral part of life. They help run critical applications like hospital tools, 
+daily business operations like ATMs, and consumer products like televisions or smartphones.
+
+Any functionality issue in software can lead to severe impacts like loss of life, money, time,
+ and reputation, in case of companies. Defects in software systems can, therefore, cause a significant effect
+ on our day-to-day lives. Now let us look at a few real-life examples over the years.
   </p>
 </div>
 

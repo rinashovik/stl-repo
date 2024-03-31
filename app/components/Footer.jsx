@@ -11,7 +11,7 @@ export default function Footer() {
     // <div>Footer page
 
 
-    <div className="container-fluid text-green text-white text-xl mt-0 h-25 p-4 border-8 flex flex-wrap justify-between bg-yellow-500">
+    <div className="container-fluid text-green text-white text-xl mt-0 h-25 p-4 border-8 flex flex-wrap justify-between bg-teal-500">
 {/* <FontAwesomeIcon icon={faFacebookF} /> */}
 
 
