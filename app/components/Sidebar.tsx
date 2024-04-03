@@ -17,7 +17,7 @@ export default function Sidebar({slides}) {
 {/* <div className='container bg-purple-900 text-white box-border h-screen w-32 p-5 border-4 hover:w-16'> */}
 
         {/* <div className='container'> */}
-    <div className='container-flex  bg-purple-800 text-white px-5 box-border h-screen w-32 p-4 border-4 hover:w-16'>
+    <div className='container-flex  bg-purple-800 text-white px-5 box-border h-screen w-16 p-4 border-4 hover:w-32'>
 
     <div className='flex items-center px-15 py-5 gap-5'> 
       
@@ -47,7 +47,7 @@ export default function Sidebar({slides}) {
 <span className="material-symbols-outlined"><Link href="charts">Orders</Link></span>
 <span className="material-symbols-outlined"><Link href="charts">chart_data</Link></span>
 <span className="material-symbols-outlined"><Link href="charts">Hallway</Link></span>
-<span className="material-symbols-outlined">personal_places</span>
+<span className="material-symbols-outlined"><Link href='/products'>personal_places</Link></span>
 <span className="material-symbols-outlined"><Link href="charts">dark_mode</Link></span>
 <span className="material-symbols-outlined"><Link href="charts">Mode_Off_On</Link></span>
 </div>

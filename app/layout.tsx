@@ -28,12 +28,16 @@ export default function RootLayout({
 
 
 
-<body className="h-screen w-full">
+<body className="container-2xl grid px-6 h-screen w-full bg-zinc-100	">
     <header >
           <Navbar />
     </header>      
          <main className={inter.className}>{children}</main>
-          <Footer />
+        {/* <footer>
+            <Footer />
+        </footer> */}
+
+        <Footer />
     </body>
 
     </html>
